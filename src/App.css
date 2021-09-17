@@ -25,3 +25,9 @@ html {
   padding-top: 10px;
   color: #666;
 }
+
+.download-card-list {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
