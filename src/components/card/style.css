@@ -1,0 +1,84 @@
+.card-item {
+    position: relative;
+    display: inline-block;
+    width: 297px;
+    height: 420px;
+    margin: 5px;
+    background-image: url('./../../assets/img/skeleton.jpg');
+    background-size: contain;
+}
+
+.card-item.download {
+    position: relative;
+    display: none;
+    width: 1188px;
+    height: 1680px;
+    margin: 0;
+    background-image: url('./../../assets/img/skeleton.jpg');
+    background-size: contain;
+}
+
+.card-item .qrcode {
+    position: absolute;
+    display: inline-block;
+    top: 153px;
+    left: 68px;
+}
+
+.card-item.download .qrcode {
+    top: 635px;
+    left: 295px;
+}
+
+.card-item .card-url {
+    color: #FF9B07;
+    font-family: Roboto, sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 19px;
+    left: 35px;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-item.download .card-url {
+    font-size: 40px;
+    bottom: 68px;
+    left: 135px;
+    max-width: 600px;
+}
+
+.card-item .table-name {
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 3px;
+    width: 80px;
+    font-size: 3.2rem;
+}
+
+.card-item.download .table-name {
+    font-size: 120px;
+    width: 335px;
+    bottom: 120px;
+}
+
+.card-item .btn-download {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.card-item .btn-download:hover {
+    opacity: .7;
+}
