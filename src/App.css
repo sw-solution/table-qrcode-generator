@@ -7,18 +7,13 @@ html {
   font-size: 10px;
 }
 
-.container {
-  text-align: center;
-  padding: 15px;
-  margin: 10px auto;
-}
-
 .csv-input {
   padding: 10px;
   display: block;
   margin: 15px auto;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-size: 12px;
 }
 
 .container p {
@@ -30,4 +25,12 @@ html {
   position: absolute;
   top: -10000px;
   left: -10000px;
+}
+
+#qrcode_app .btn {
+  font-size: 1.2rem;
+}
+
+#qrcode_app * {
+  line-height: 1;
 }
